@@ -19,6 +19,7 @@
  '(menu-bar-mode nil)
  '(nyan-wavy-trail t)
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/"))))
+ '(read-quoted-char-radix 16)
  '(server-mode t)
  '(tool-bar-mode nil)
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
