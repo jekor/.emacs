@@ -3,6 +3,9 @@
 (require 'grep-a-lot)
 (grep-a-lot-setup-keys)
 
+(fset 'extract-next-hyperlink
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([67108896 19 104 114 101 102 61 34 13 23 19 34 13 2 13] 0 "%d")) arg)))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
